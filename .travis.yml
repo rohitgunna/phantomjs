@@ -4,5 +4,6 @@ python:
 install:
    - pip install requests
    - pip install behave
+   - pip install selenium
 script:
    - python phantomjs.py
